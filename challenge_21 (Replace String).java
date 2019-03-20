@@ -5,9 +5,8 @@ public class HelloWorld
 {
     public static void main(String args[])
     {
-        String text = "is This is a test is.";
-
-        System.out.println(ReplaceWith(text, "is", "is not"));
+        System.out.println(ReplaceWith("is This is a test is.", "is", "is not"));
+        System.out.println(ReplaceWith("Hello, World.", "Hello", "Goodbye"));
     }
 
     public static String ReplaceWith(String text, String word, String replacement)
