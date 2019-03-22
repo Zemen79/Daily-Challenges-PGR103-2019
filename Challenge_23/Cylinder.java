@@ -14,14 +14,14 @@ public class Cylinder extends Circle
 
     public Cylinder(double radius, double height)
     {
-        this(height);
-        SetRadius(radius);
+        super(radius);
+        this.height = height;
     }
 
     public Cylinder(double radius, double height, String color)
     {
-        this(radius, height);
-        SetColor(color);
+        super(radius, color);
+        this.height = height;
     }
 
     // getters
@@ -51,7 +51,7 @@ public class Cylinder extends Circle
     @Override
     public String toString()
     {
-        return "Radius = " + GetRadius() + " height = " + this.height + "  " + " Color = " + GetColor();
+        return "Radius = " + GetRadius() + " height = " + this.height + "  " + "Color = " + GetColor();
     }
 
     // private:
