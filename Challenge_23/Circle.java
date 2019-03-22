@@ -46,7 +46,7 @@ public class Circle
 
     public String toString()
     {
-        return "Radius = " + this.radius  + "  " + "Color = " + this.color;
+        return "Radius = " + this.radius + "  " + " Color = " + this.color;
     }
 
 // private:
