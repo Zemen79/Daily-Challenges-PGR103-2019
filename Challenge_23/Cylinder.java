@@ -51,7 +51,7 @@ public class Cylinder extends Circle
     @Override
     public String toString()
     {
-        return "Radius = " + GetRadius() + " height = " + this.height + "  " + "Color = " + GetColor();
+        return "Radius = " + GetRadius() + " height = " + this.height + "  " + " Color = " + GetColor();
     }
 
     // private:
