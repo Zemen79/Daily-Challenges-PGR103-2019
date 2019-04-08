@@ -8,6 +8,7 @@ public class HelloWorld
         DimondString("SAMPLE");
         DimondString("Hello World");
         DimondString("0123456789");
+        DimondString("*-:;*^¤%&/");
     }
 
     public static void DimondString(String str)
